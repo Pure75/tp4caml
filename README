@@ -1,0 +1,25 @@
+Pour ce readme je vais essayer d'aller a l'essentiel : 
+Concretement, j'ai rencontre pas mal de difficultes sur quelques fonctions.
+En effet, la fonction draw board est celle qui m'a pris le plus de temps,
+quelques jours je ne sais plus exactement, j'ai fait un petit blocage dessus
+J'ai du demander de l'aide par ce que j'avais du mal a visualiser de 
+quelle maniere j'allais reussir a coupler le coloriage des cases avec 
+la creation du tableau. 
+Apres cette fonction faite tout s'est a peu pres bien passe, j'ai recontre quelques difficultes qui ont fait que j'ai fini le gameoflife vendredi. 
+Cependant lors du test de mes fonctions je me suis rendu compte que j'en
+avais 4 qui ne fonctionnait pas, celles qui utilisaient le next_generation
+qui utilisait elle meme le get_cell et le put_cell. Ces deux fonctions
+utlisant la fonction nth , lorsque je sortais du board, Caml etait pas
+content et me renvoyait un failwith pour valeurs negatives. 
+j'ai donc passe mon samedi a reecrire mes fonctions get cell et put cell
+pour qu'elles n'utilisent pas le nth.
+Enfin, c'est dimanche que j'ai essaye de me lancer dans le bonus, 
+mais apres pas mal d'essais et de temps, je n'ai reussi a faire que 
+le count_neighbours sans le get cell et le remaining, autant dire 
+les deux plus simples je pense.
+Je ne sais pas encore si je vais push mon fichier bonus etant donne 
+qu'il n y a pas grand choses dedans et que ce serait plus une perte de temps
+pour vous. 
+En reume c'est a peu pres tout, je vous souhaite le meilleur confinement
+meme si on sait que ca va etre un cauchemar pour tout le monde. 
+Oubliez pas que tous les b1 vous aime quand meme ce serait dommage <3 !
